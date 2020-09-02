@@ -21,7 +21,7 @@ const projects = [
     },
     {
         id: 'API',
-        src: 'capture.PNG'
+        src: 'Capture.PNG'
     },
 ]
 
