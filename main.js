@@ -39,7 +39,7 @@ function displayProjects(projects){
 
      const menu = document.getElementById('menu-picture');
      const project = projects.map(function(item){
-        return `<div class="item col-md-6 col-sm-6 col-lg-4" style="margin-bottom: 30px"><a href="${item.herf}"><img src="image/${item.src}"></a></div>`;
+        return `<div class="item col-md-6 col-sm-6 col-lg-4" style="margin-bottom: 30px"><a href="${item.href}"><img src="image/${item.src}"></a></div>`;
      });
     menu.innerHTML = project.join('');
 }
