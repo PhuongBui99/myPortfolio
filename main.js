@@ -25,7 +25,8 @@ const projects = [
     },
     {
         id: 'API',
-        src: 'Capture.PNG'
+        src: 'Capture.PNG',
+        href: 'https://phuongbui99.github.io/weatherApp/'
     },
 ]
 
