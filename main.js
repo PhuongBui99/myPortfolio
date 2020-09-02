@@ -1,11 +1,13 @@
 const projects = [
     {
         id: 'HTML/CSS',
-        src: 'pic1.PNG'
+        src: 'pic1.PNG',
+        href: 'https://phuongbui99.github.io/Shopping-Online/'
     },
     {
         id: 'Javascript',
-        src: 'song.PNG'
+        src: 'song.PNG',
+        href: 'https://phuongbui99.github.io/ChooseSong/'
     },
     {
         id: 'HTML/CSS',
@@ -13,11 +15,13 @@ const projects = [
     },
     {
         id: 'HTML/CSS',
-        src: 'pic1.PNG'
+        src: 'pic1.PNG',
+        href: 'https://phuongbui99.github.io/Shopping-Online/'
     },
     {
         id: 'Javascript',
-        src: 'song.PNG'
+        src: 'song.PNG',
+        href: 'https://phuongbui99.github.io/ChooseSong/'
     },
     {
         id: 'API',
@@ -34,7 +38,7 @@ function displayProjects(projects){
 
      const menu = document.getElementById('menu-picture');
      const project = projects.map(function(item){
-        return `<div class="item col-md-6 col-sm-6 col-lg-4" style="margin-bottom: 30px"><img src="image/${item.src}"></div>`;
+        return `<div class="item col-md-6 col-sm-6 col-lg-4" style="margin-bottom: 30px"><a href="${item.herf}"><img src="image/${item.src}"></a></div>`;
      });
     menu.innerHTML = project.join('');
 }
